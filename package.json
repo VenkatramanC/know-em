@@ -1,0 +1,19 @@
+{
+  "name": "know-em",
+  "version": "1.0.0",
+  "description": "An App For Kids To Know About The Person",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VenkatramanC/know-em.git"
+  },
+  "author": "Venkatraman & Satish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VenkatramanC/know-em/issues"
+  },
+  "homepage": "https://github.com/VenkatramanC/know-em#readme"
+}
