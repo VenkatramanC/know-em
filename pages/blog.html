@@ -1,16 +1,16 @@
-  <form class="form-horizontal well" ng-submit="">
+  <form class="form-horizontal well" ng-submit="blogCtrl.addBlog()">
     <fieldset>
     <legend>Add Your Comment</legend>
       <div class="form-group">
-        <label for="blogHead" class="col-lg-2 control-label">Heading</label>
+        <label for="blogHead" class="col-lg-2 control-label" ng-model="blogCtrl.newBlog.title">Heading</label>
         <div class="col-lg-10">
-          <input type="text" class="form-control" ng-model="">
+          <input type="text" class="form-control">
         </div>
       </div>
       <div class="form-group">
-        <label for="blogDescription" class="col-lg-2 control-label">Description</label>
+        <label for="blogDescription" class="col-lg-2 control-label" ng-model="blogCtrl.newBlog.description">Description</label>
         <div class="col-lg-10">
-          <textarea class="form-control" ng-model=""></textarea>
+          <textarea class="form-control"></textarea>
         </div>
       </div>
       <div class="form-group">
